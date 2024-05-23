@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTRsdnVlZGw5NTV0ZmZrdGc5cHo5aTh2YmJjMXlqMXQwMXVta3MxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oNSMDtjkVWU61KHckX/giphy.gif'); /* Remplacez 'https://example.com/votre-gif.gif' par l'URL de votre GIF */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8); /* Ajout d'une opacité pour le formulaire */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 80%;
+  padding: 15px; /* Augmentation de la taille du texte */
+  margin-bottom: 60px; /* Augmentation de l'espace entre les éléments */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 20px; /* Augmentation de la taille du bouton */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .container {
+    position: relative;
+    text-align: center;
+  }
+
+  h2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

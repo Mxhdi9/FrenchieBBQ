@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #17f;
+}
+
+section {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 800px; /* Augmentation de la largeur pour s'adapter à la grille */
+    border-radius: 6px;
+    margin: 20px; /* Espacement autour de la section */
+}
+
+section h2.section-title {
+    text-align: center;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Utilisation de la grille pour organiser les produits */
+    gap: 20px; /* Espacement entre les produits */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Ajoutez un espacement entre les cartes de produit */
+}
+
+.product-img {
+  width: 200px; /* Définissez une largeur fixe pour toutes les images */
+  height: 200px; /* Définissez une hauteur fixe pour toutes les images */
+  object-fit: cover; /* Ajustez l'image pour remplir le conteneur tout en conservant les proportions */
+  margin-bottom: 10px; /* Ajoutez un espacement sous l'image */
+}
+
+.product-content {
+    flex: 1;
+}
+
+.product-content .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-rating {
+    display: flex;
+}
+
+.product-rating ion-icon {
+    font-size: 1.2rem;
+    color: gold; /* Couleur des étoiles */
+    margin-right: 5px; /* Espacement entre les étoiles */
+}
+
+.product-img {
+    width: 100%; /* Ajuster la largeur des images */
+    height: auto; /* Garder le rapport hauteur-largeur */
+}
+
+.btn.btn-primary.btn-icon {
+    margin: 20px auto; /* Centrer le bouton sous la grille */
+    padding: 10px 20px; /* Ajouter un peu d'espacement autour du bouton */
+    display: inline-block; /* Afficher en ligne */
+    background-color: #17f;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.home-carousel {
+  width: 25%; /* Définit la largeur du carrousel à 25% de la largeur de l'écran */
+  position: fixed; /* Fixe la position du carrousel */
+  top: 0; /* Aligne le carrousel en haut de l'écran */
+  left: 0; /* Aligne le carrousel sur le côté gauche de l'écran */
+  height: 100vh; /* Définit la hauteur du carrousel pour qu'il occupe toute la hauteur de l'écran */
+  overflow-y: auto; /* Ajoute une barre de défilement verticale si nécessaire */
+}
+
+.carousel-slide {
+  width: 100%; /* Définit la largeur des diapositives du carrousel sur 100% */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
+
+
