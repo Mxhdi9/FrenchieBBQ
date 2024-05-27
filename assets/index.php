@@ -259,7 +259,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Chicken Barbecue</h3>
 
                   <p class="product-price">
-                    <span class="small">$</span>11
+                    <span class="small">€</span>11
                   </p>
                 </div>
 
@@ -288,7 +288,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Frites maison</h3>
 
                   <p class="product-price">
-                    <span class="small">$</span>14
+                    <span class="small">€</span>14
                   </p>
                 </div>
 
@@ -317,7 +317,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Brisket de porc</h3>
 
                   <p class="product-price">
-                    <span class="small">$</span>9
+                    <span class="small">€</span>9
                   </p>
                 </div>
 
@@ -350,7 +350,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Pulled Burger</h3>
 
                   <p class="product-price">
-                    <span class="small">$</span>4
+                    <span class="small">€</span>4
                   </p>
                 </div>
 
@@ -383,7 +383,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Macaroni cheese </h3>
 
                   <p class="product-price">
-                    <span class="small">$</span>6
+                    <span class="small">€</span>6
                   </p>
                 </div>
 
@@ -411,7 +411,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Barbecue Ribs</h3>
 
                   <p class="product-price">
-                    <span class="small">$</span>14
+                    <span class="small">€</span>14
                   </p>
                 </div>
 
