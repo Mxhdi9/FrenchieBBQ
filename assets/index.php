@@ -21,11 +21,6 @@
 
 
   <body>
-    <!-- Votre contenu HTML existant -->
-
-    <!-- Scripts JavaScript -->
-
-
 </body>
 
 
@@ -37,7 +32,7 @@
     <nav class="navbar">
         <div class="navbar-wrapper">
             <a href="#">
-                <img src="/assets/images/logo.png" alt="Logo de l'entreprise" width="30">
+                <img src="/assets/images/logo.png" alt="Logo entreprise" width="30">
             </a>
             <ul class="navbar-nav">
                 <li><a href="#home" class="nav-link">Accueil</a></li>
@@ -84,12 +79,12 @@
 
         <div class="home-left">
 
-          <p class="home-subtext">Bienvenue sur notre site !</p>
+          <p class="home-subtext">Bienvenue chez FrenchieBBQ !</p>
 
-          <h1 class="main-heading">Slogan ...</h1>
+          <h1 class="main-heading">Slow down let us grill !</h1>
 
           <p class="home-text">
-            Consectetur numquam poro nemo veniam eligendi rem adipisci quo modi (lorem ipsum)
+            Savourez chaque instant, nous nous occupons du barbecue.
           </p>
 
           <div class="btn-group">
@@ -187,8 +182,8 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
           <h3 class="card-heading">Ingrédients frais</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.(Lorem ipsum)
-          </p>
+          Des produits sélectionnés avec soin pour des saveurs authentiques et une expérience culinaire exceptionnelle.
+        </p>
 
         </div>
 
@@ -199,7 +194,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
           <h3 class="card-heading">Préparation rapide</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.(Lorem ipsum)
+          Des plats délicieux préparés en un clin d'œil pour que vous puissiez profiter sans attendre.
           </p>
 
         </div>
@@ -211,7 +206,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
           <h3 class="card-heading">Professionel & chef expérimenté</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.(Lorem ipsum)
+          Avec 30 ans d'expérience aux États-Unis, notre fondateur ramène l'authenticité du BBQ américain en France. Découvrez le FrenchieBBQ, un concept ambulant qui valorise la qualité des ingrédients et le plaisir du partage.
           </p>
 
         </div>
@@ -223,8 +218,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
           <h3 class="card-heading">Services de qualité</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.(Lorem ipsum)
-          </p>
+          Une expertise de 30 ans pour vous offrir le meilleur du BBQ américain en France, avec des ingrédients de première qualité et un savoir-faire exceptionnel.          </p>
 
         </div>
 
@@ -239,8 +233,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
         <h2 class="section-title">Nos produits phare</h2>
 
         <p class="section-text">
-          Consectetur numquam poro nemo veniam
-          eligendi rem adipisci quo modi.
+        Découvrez nos incontournables du BBQ, des classiques américains revisités avec une touche française, préparés avec des ingrédients frais et de qualité.
         </p>
 
         <div class="products-grid">
@@ -259,7 +252,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Chicken Barbecue</h3>
 
                   <p class="product-price">
-                    <span class="small">€</span>11
+                    <span class="small">$</span>11
                   </p>
                 </div>
 
@@ -288,7 +281,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Frites maison</h3>
 
                   <p class="product-price">
-                    <span class="small">€</span>14
+                    <span class="small">$</span>14
                   </p>
                 </div>
 
@@ -317,7 +310,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Brisket de porc</h3>
 
                   <p class="product-price">
-                    <span class="small">€</span>9
+                    <span class="small">$</span>9
                   </p>
                 </div>
 
@@ -350,7 +343,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Pulled Burger</h3>
 
                   <p class="product-price">
-                    <span class="small">€</span>4
+                    <span class="small">$</span>4
                   </p>
                 </div>
 
@@ -383,7 +376,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Macaroni cheese </h3>
 
                   <p class="product-price">
-                    <span class="small">€</span>6
+                    <span class="small">$</span>6
                   </p>
                 </div>
 
@@ -411,7 +404,7 @@ Chez FrenchieBBQ, nous croyons en la qualité des ingrédients, en l'authenticit
                   <h3 class="product-name">Barbecue Ribs</h3>
 
                   <p class="product-price">
-                    <span class="small">€</span>14
+                    <span class="small">$</span>14
                   </p>
                 </div>
 

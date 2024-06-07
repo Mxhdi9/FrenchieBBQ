@@ -9,9 +9,6 @@ if (!isset($_SESSION['email'])) {
 
 // Afficher les informations de l'utilisateur
 $email = $_SESSION['email'];
-echo "<h2>Bienvenue, $email !</h2>";
-
-// Ajouter ici le contenu de votre tableau de bord ou de votre page de profil
 ?>
 
 <!DOCTYPE html>
@@ -22,10 +19,14 @@ echo "<h2>Bienvenue, $email !</h2>";
   <title>Tableau de bord - Webleb</title>
 </head>
 <body>
-  
-  <p>Félicitations tu t'es bien connecter bg</p>
-  <p><a href="deconnexion.php">Se déconnecter</a></p>
-  <p><a href="profil.php">Mon profil</a></p>
-  <p><a href="/assets/index.php">Accueil</a></p>
+  <div class="container">
+    <h2>Bienvenue, <?php echo htmlspecialchars($email); ?> !</h2>
+    <p>Félicitations tu t'es bien connecté(e)</p>
+    <div class="button-container">
+      <a class="button" href="profil.php">Mon profil</a>
+      <a class="button" href="/assets/index.php">Accueil</a>
+      <a class="button" href="deconnexion.php">Se déconnecter</a>
+    </div>
+  </div>
 </body>
 </html>

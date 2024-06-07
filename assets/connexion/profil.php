@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+require_once "./config.php";
+
 // Vérifier si l'utilisateur est connecté, sinon rediriger vers la page de connexion
 if (!isset($_SESSION['email'])) {
     header("Location: ./connexion.php");
@@ -10,19 +12,26 @@ if (!isset($_SESSION['email'])) {
 // Récupérer les informations de l'utilisateur depuis la session
 $email = $_SESSION['email'];
 
-// Vous pouvez récupérer d'autres informations sur l'utilisateur à partir de la base de données si nécessaire
-
+// Vous pouvez récupérer d'autres informations sur l'utilisateur à partir de la session si nécessaire
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>Profil</title>
+  <link rel="stylesheet" href="profil.css">
 </head>
 <body>
-  <h2>Bienvenue sur votre profil, <?php echo $email; ?> !</h2>
-  <!-- Affichez ici d'autres informations sur l'utilisateur si nécessaire -->
-  <p><a href="deconnexion.php">Se déconnecter</a></p>
+  <div class="container">
+    <h2>Bienvenue sur votre profil, <?php echo htmlspecialchars($email); ?>!</h2>
+    <div class="profile-info">
+      <p><strong>Email :</strong> <?php echo htmlspecialchars($email); ?></p>
+    </div>
+    <div class="buttons">
+      <a href="changer_mot_de_passe.php" class="button">Accueil</a>
+      <a href="deconnexion.php" class="button logout">Se déconnecter</a>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,39 +1,23 @@
+<?php
+session_start();
+
+// Vérifier si l'utilisateur a soumis le formulaire
+if (!isset($_SESSION['reservation_id'])) {
+    header("Location: devis.php");
+    exit();
+}
+
+// Récupérer l'ID de la réservation
+$reservation_id = $_SESSION['reservation_id'];
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/confirmation.css">
     <title>Confirmation de réservation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        .container {
-            max-width: 600px;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -41,7 +25,9 @@
         <p>Votre demande de réservation a été soumise avec succès !</p>
         <p>Nous vous contacterons sous peu pour confirmer les détails de votre réservation.</p>
         <p>Merci pour votre confiance.</p>
+        <p>Votre numéro de commande est : <strong><?php echo htmlspecialchars($reservation_id); ?></strong></p>
         <p><a href="devis.php">Retourner au formulaire de réservation</a></p>
+        <p><a href="/assets/index.php">Retourner à l'accueil</a></p>
     </div>
 </body>
 </html>
